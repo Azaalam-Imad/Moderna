@@ -1,0 +1,34 @@
+header
+    height: 80vh
+    background-image: url(../images/hero-bg.jpg)
+    background-size: cover
+    background-repeat: no-repeat
+    border-bottom-left-radius: 150% 40%
+    border-bottom-right-radius: 150% 40%
+    // clip-path: circle(2500px at 50% -350%)
+    position: relative
+    &::after
+        position: absolute
+        content: ''
+        background: $darkGreen
+        width: 100%
+        height: 84vh
+        opacity: 0.3
+        top: 0
+        z-index: 1
+        border-bottom-left-radius: 150% 60%
+        border-bottom-right-radius: 180% 40%
+    nav
+        background: $darkGreen
+        z-index: 2
+    .header-carousel
+        h1
+            font-size: 3em
+            color: #fff
+        p
+        //     width: 50%
+        color: #fff
+.last-footer
+    background: $lightGreen
+footer
+    background: $darkGreen
