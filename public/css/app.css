@@ -11896,5 +11896,19 @@ header .header-carousel h1, header .header-carousel .h1 {
 footer {
   background: #1e4356;
 }
+footer .footer-icons a {
+  text-decoration: none;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+footer .footer-icons a i {
+  font-size: 15px;
+}
 
 /*# sourceMappingURL=app.css.map */
