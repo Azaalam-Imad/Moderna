@@ -1,52 +1,13 @@
-main
-    width: 100%
-    @include center(center, center, row)
-    flex-wrap: wrap
-    gap: 25px
-    padding: 50px 
-    
-    .card
-        width: 29.5% !important
-        position: relative
-        border-radius: unset
-        border: unset
-
-        .hovrimg
-            width: 417px
-            height: 416px
-            background-color: rgba(90, 90, 92, 65%)
-                // @extend .card-img-top
-            position: absolute
-            top: 0px
-            @include center(center, center, row)
-            gap: 15px
-            // display: none
-                
-            a
-                i
-                    font-size: 20px
-                    color: #fff
-
-        .card-img-top
-            width: 417px !important
-            height: 416px !important
-            border-radius: unset
-            img
-                border-radius: unset
 
 
-        .card-body
-            width: 100%
-            @include center(center, center, column)
-                
-            h5
-                padding-top: 15px
-
-            h6
-                color: rgba(85, 85, 85, 40%)
-                font-style: italic
-                padding-bottom: 5px
-            
-            p
-                text-align: center
-                font-size: 13px
+    .hovrimg
+        width: 100%
+        height: 100%
+        opacity: 0
+        &:hover
+            opacity: 1
+            background-color: #00000056
+    .card-title
+        color: #1e4356
+    .card-text
+        font-size: 14px
