@@ -12166,64 +12166,18 @@ iframe {
     width: 85vw !important;
   }
 }
-.main-team {
+.hovrimg {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 25px;
-  padding: 50px;
+  height: 100%;
+  opacity: 0;
 }
-.main-team .card {
-  width: 29.5% !important;
-  position: relative;
-  border-radius: unset;
-  border: unset;
+.hovrimg:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.337254902);
 }
-.main-team .card .hovrimg {
-  width: 417px;
-  height: 416px;
-  background-color: rgba(90, 90, 92, 0.65);
-  position: absolute;
-  top: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  gap: 15px;
-}
-.main-team .card .hovrimg a i {
-  font-size: 20px;
-  color: #fff;
-}
-.main-team .card .card-img-top {
-  width: 417px !important;
-  height: 416px !important;
-  border-radius: unset;
-}
-.main-team .card .card-img-top img {
-  border-radius: unset;
-}
-.main-team .card .card-body {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.main-team .card .card-body h5, .main-team .card .card-body .h5 {
-  padding-top: 15px;
-}
-.main-team .card .card-body h6, .main-team .card .card-body .h6 {
-  color: rgba(85, 85, 85, 0.4);
-  font-style: italic;
-  padding-bottom: 5px;
-}
-.main-team .card .card-body p {
-  text-align: center;
-  font-size: 13px;
+
+.card-title {
+  color: #1e4356;
 }
 
 /*# sourceMappingURL=app.css.map */
