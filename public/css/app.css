@@ -11857,15 +11857,49 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-header nav {
-  background: #1e4356;
+header {
+  margin-bottom: 15vh;
 }
-header .div-img img {
+
+.big-div-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   height: 80vh;
+  z-index: 5;
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   border-bottom-left-radius: 150% 40%;
   border-bottom-right-radius: 150% 40%;
+  position: relative;
+}
+.big-div-carousel::after {
+  position: absolute;
+  content: "";
+  background: #1e4356;
+  width: 100%;
+  height: 85vh;
+  opacity: 0.3;
   top: 0;
+  left: 0;
+  z-index: -1;
+  border-bottom-left-radius: 150% 60%;
+  border-bottom-right-radius: 180% 40%;
+}
+
+nav {
+  background: #1e4356;
+  z-index: 5;
+}
+
+.header-carousel h1, .header-carousel .h1 {
+  font-size: 3em;
+  color: #fff;
+}
+.header-carousel p {
+  color: #fff;
 }
 
 .last-footer {
