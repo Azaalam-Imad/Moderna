@@ -1,2 +1,29 @@
 .after-header
     background: $darkGreen
+
+
+// & section services
+
+.pricing
+    width: 30%
+    position: relative
+    margin-bottom: 1rem
+    &::after
+        position: absolute
+        content: ''
+        background: $lightBlue
+        width: 40%
+        height: 5px
+        bottom: -3px
+        left: 30%
+.div-lightBlue
+    background: $lightBlue
+    height: 110% !important
+    z-index: 1
+    position: absolute
+    left: 30%
+    top: -5%
+.dolar
+    color: $lightBlue
+.botona
+    margin-left: 20%

@@ -12237,6 +12237,38 @@ footer .footer-icons a i {
   background: #1e4356;
 }
 
+.pricing {
+  width: 30%;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.pricing::after {
+  position: absolute;
+  content: "";
+  background: #68a4c4;
+  width: 40%;
+  height: 5px;
+  bottom: -3px;
+  left: 30%;
+}
+
+.div-lightBlue {
+  background: #68a4c4;
+  height: 110% !important;
+  z-index: 1;
+  position: absolute;
+  left: 30%;
+  top: -5%;
+}
+
+.dolar {
+  color: #68a4c4;
+}
+
+.botona {
+  margin-left: 20%;
+}
+
 .hovrimg {
   width: 100%;
   height: 100%;
