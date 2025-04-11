@@ -21,6 +21,9 @@
       font-size: 18px
       font-weight: 700
       margin: 10px 0
+    p
+      color: #555555 !important
+      font-size: 15px !important
   .contact-call-email
     width: 40vw !important
     h3
@@ -28,6 +31,7 @@
       font-size: 18px
       font-weight: 700
       margin: 10px 0
+    
     .contact-c
       box-shadow: 0px 0px 10px #dfdfdf !important
       padding: 30px 10px 20px 10px
@@ -37,6 +41,11 @@
        font-size: 18px
        font-weight: 700
        margin: 10px 0
+      p
+        color: #555555 !important
+        font-size: 15px
+        
+
   
 
   form
@@ -62,36 +71,52 @@
         width: 20vw !important
         height: 6vh !important
         padding: 10px
-        outline:  1px solid #5555558e  !important
+        outline:  1px solid #55555554  !important
         border: none
         &:focus
          outline:  1px solid #7da8e9 !important
         &::placeholder
-         color: #5555558e !important
+         color: #55555554 !important
     .contact-sujet
       height: 6vh !important
       padding: 10px
-      outline:  1px solid #5555558e  !important
+      outline:  1px solid #55555554  !important
       border: none
       &:focus
         outline:  1px solid #7da8e9 !important
       &::placeholder
-        color: #5555558e !important
+        color: #55555554 !important
     .contact-message
       height: 20vh !important
       padding: 10px
-      outline:  1px solid #5555558e  !important
+      outline:  1px solid #55555554  !important
       border: none
       &:focus
         outline:  1px solid #7da8e9 !important
       &::placeholder
-        color: #5555558e !important
+        color: #55555554 !important
   iframe
     height: 60vh
     margin-top: 10vh
     margin-bottom: 6vh
   @media  ( max-width: 426px  )
-    
+    .a-section1
+      flex-direction: column
+    .contact-adress
+      width: 94vw !important
+    .contact-call-email
+      width: 94vw !important
+      flex-direction: column !important
+      .contact-c
+        width: 94vw !important
+    form
+     width: 94vw !important
+     height: 24.7rem
+     .contact-name-email
+      flex-direction: column !important
+      input 
+        width: 85vw !important
+
     
   
 
